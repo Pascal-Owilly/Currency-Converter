@@ -16,14 +16,14 @@ def index():
 
 
     
-    form = currency()
+    form = Currency()
 
     if form.validate_on_submit():
         amount = form.amount.data
         amount = float(amount)
         from_c = form.from_c.data
         to_c = form.to_c.data
-        response = convert_currency(from_c,to_c, API_KEY)
+        response = convert_currency(from_c,to_c)
         rate = response['Realtime Currency Exchange Rate']['5. Exchange Rate']
         rate = float(rate)
         result = rate * amount
@@ -32,7 +32,7 @@ def index():
         to_c_code = response['Realtime Currency Exchange Rate']['3. To_Currency Code']
         to_c_name = response['Realtime Currency Exchange Rate']['4. To_Currency Name']
         time = response['Realtime Currency Exchange Rate']['6. Last Refreshed']
-        return render_template('home.html', result=round(result, 2), amount=amount,
+    return render_template('home.html', result=round(result, 2), amount=amount,
 								from_c_code=from_c_code, from_c_name=from_c_name,
 								to_c_code=to_c_code, to_c_name=to_c_name, time=time)
 

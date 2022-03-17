@@ -3,8 +3,8 @@ import os
 
 class Config:
    
-    SECRET_KEY = os.environ.get("SECRET_KEY")
-    API_KEY = 'ENTER-YOUR-API-KEY'
+    SECRET_KEY = os.environ.get('SECRET_KEY')
+    API_KEY = os.environ.get('API_KEY')
     SQLALCHEMY_DATABASE_URI = 'postgresql+psycopg2://moringa:access@localhost/currency_c'
     #email configurations
     MAIL_SERVER = 'smtp.google.com'

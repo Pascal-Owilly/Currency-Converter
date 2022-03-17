@@ -23,6 +23,7 @@ def create_app(config_name):
 
 
     app.config.from_object(config_options[config_name])
+    app.config['SECRET_KEY'] = 'silvano'
   
     app.config['SQLALCHEMY_DATABASE_URI'] ='postgresql+psycopg2://moringa:access@localhost/currency_c'
 
