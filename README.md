@@ -2,6 +2,8 @@
 
 ## Author
 [**sylvestus sigei**](https://github.com/sylvestus)
+[**Pascal Owilly**](https://github.com/Pascal-Owilly)
+[**Jacob Rugano**](https://github.com/)
 ## Description
 this is a currency convesion site that let users register login and convert currency from one denomination to another 
 
@@ -24,11 +26,7 @@ Then follow the following 2 steps:
 * **1** : Clone this repository using **`https://github.com/sylvestus/blogsite_site.git`**, or downloading a ZIP file of the code. If you decide  to download it as a .zip file, you will have to extract files to your preferred location.
 * **2** : Open the terminal, go to the project directory and run the following commands: **`chmod +x start.sh`** and **`./start.sh`** each one at a time to launch the program.
 ## User Stories
-The user is able to;
-* create an account login See various blogs
-* comment on the blogs
-* See the delete the blogs 
-* delete bad reviews
+Input a currency you want to convert then let magic happen
 ## Known Bugs
 * No known bugs. Please contact me if you experience any.
 ## Support and Contact Details
