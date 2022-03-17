@@ -3,7 +3,7 @@
 ## Author
 [**sylvestus sigei**](https://github.com/sylvestus)
 [**Pascal Owilly**](https://github.com/Pascal-Owilly)
-[**Jacob Rugano**](https://github.com/)
+[**Jacob Rugano**](https://github.com/jacobrugano)
 ## Description
 this is a currency convesion site that let users register login and convert currency from one denomination to another 
 
