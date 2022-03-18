@@ -8,12 +8,14 @@
 this is a currency convesion site that let users register login and convert currency from one denomination to another 
 
 ## Technologies Used
-* Python 3.8
-* Git
+* Python 3.8, python3.9, python3.6
+* Git & GitHub
 * Flask
 * HTML5 & CSS
 * Bootstrap
-* Heroku
+* Heroku & Heroku ClI
+* Markdown
+
 ## Requirements
 * This program requires python3.+ installed in your computer. 
 * To install the requiremenst activate virtual encin=ronment and run
