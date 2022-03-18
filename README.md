@@ -23,7 +23,7 @@ this is a currency convesion site that let users register login and convert curr
 ## Setup/Installation
 To user this simple python a application, first make sure you have met the recquirement provided above.
 Then follow the following 2 steps:
-* **1** : Clone this repository using **`https://github.com/sylvestus/blogsite_site.git`**, or downloading a ZIP file of the code. If you decide  to download it as a .zip file, you will have to extract files to your preferred location.
+* **1** : Clone this repository using **`https://github.com/Pascal-Owilly/Currency-Converter.git`**, or downloading a ZIP file of the code. If you decide  to download it as a .zip file, you will have to extract files to your preferred location.
 * **2** : Open the terminal, go to the project directory and run the following commands: **`chmod +x start.sh`** and **`./start.sh`** each one at a time to launch the program.
 ## User Stories
 Input a currency you want to convert then let magic happen
@@ -31,7 +31,7 @@ Input a currency you want to convert then let magic happen
 * No known bugs. Please contact me if you experience any.
 ## Support and Contact Details
 * You can sent me a feedback or reach me incase of any issues/ bugs through the this email address:
- silvanussigei1996@gmail.com
+ **silvanussigei1996@gmail.com**,**pascalouma54@gmail.com**, **jacobrugano@gmail.com**
 ## License
 Copyright <2022> <silvano>
 
